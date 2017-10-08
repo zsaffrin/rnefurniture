@@ -1,0 +1,24 @@
+
+.About-header {
+    background: url('../../../../images/working-hands.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 30vh 2em 1em;
+    
+    h2 {
+        text-transform: none;
+        text-shadow: 
+            -1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px -1px 0 #000,
+            1px 1px 0 #000;
+    }
+}
+
+.About-content {
+    padding: 2em;
+
+    p {
+        line-height: 1.5;
+        margin-bottom: 1em;
+    }
+}
