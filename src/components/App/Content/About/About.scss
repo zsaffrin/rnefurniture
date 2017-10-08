@@ -1,5 +1,4 @@
 @import '../../../../styles/_breakpoints';
-@import '../../../../styles/_colors';
 
 .About-header {
     background: url('../../../../images/working-hands.jpg') center center no-repeat;
@@ -37,7 +36,8 @@
         @media (min-width: $breakpoint-md) { max-width: 40%; }
 
         &.bq-left {
-            border-right: 1px solid map-get($colors, 'ivory');
+            border-right-style: solid;
+            border-right-width: 1px;
             margin-right: 1rem;
             text-align: right;
 
@@ -50,7 +50,8 @@
             }
         }
         &.bq-right {
-            border-left: 1px solid map-get($colors, 'ivory');
+            border-left-style: solid;
+            border-left-width: 1px;
             margin-left: 1rem;
 
             @media (min-width: $breakpoint-sm) {
