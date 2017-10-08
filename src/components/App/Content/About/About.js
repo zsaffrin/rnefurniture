@@ -19,6 +19,9 @@ const About = () => (
                     being afraid of failure all contribute to my current success in this field 
                     today.
                 </p>
+                <blockquote className="bq-right">
+                    <p>An interest was sparked, and a true passion was discovered.</p>
+                </blockquote>
                 <p>
                     When I saw my Father use the chop saw for the first time spit out saw dust 
                     along with the smell of fresh cut, oak, I knew that when I got older, I wanted 
@@ -53,6 +56,9 @@ const About = () => (
                     tools I would use. I got comfortable with being uncomfortable and adopted that train of thought 
                     with other things in life.
                 </p>
+                <blockquote className="bq-left">
+                    <p>I decided it was time for me to get back into woodworking full speed ahead.</p>
+                </blockquote>
                 <p>
                     After 6 straight years of woodworking instruction at Dover-Sherborn Public Schools, I graduated 
                     with 2 awards and a high school diploma. I then took the next 6 years off from working with 

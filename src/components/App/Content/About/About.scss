@@ -1,8 +1,12 @@
+@import '../../../../styles/_breakpoints';
+@import '../../../../styles/_colors';
 
 .About-header {
     background: url('../../../../images/working-hands.jpg') center center no-repeat;
     background-size: cover;
     padding: 30vh 2em 1em;
+
+    @media (min-width: $breakpoint-sm) { padding: 20vh 2em 10vh; }
     
     h2 {
         text-transform: none;
@@ -20,5 +24,51 @@
     p {
         line-height: 1.5;
         margin-bottom: 1em;
+    }
+
+    blockquote {
+        padding: 1rem;
+        hyphens: auto;
+        margin: 1rem 0;
+        word-break: break-all;
+        word-break: break-word;
+
+        @media (min-width: $breakpoint-sm) { max-width: 50%; }
+        @media (min-width: $breakpoint-md) { max-width: 40%; }
+
+        &.bq-left {
+            border-right: 1px solid map-get($colors, 'ivory');
+            margin-right: 1rem;
+            text-align: right;
+
+            @media (min-width: $breakpoint-sm) {
+                float: left;
+            }
+            @media (min-width: $breakpoint-md) {
+                padding-right: 2rem;
+                margin-right: 2rem;
+            }
+        }
+        &.bq-right {
+            border-left: 1px solid map-get($colors, 'ivory');
+            margin-left: 1rem;
+
+            @media (min-width: $breakpoint-sm) {
+                float: right;
+            }
+            @media (min-width: $breakpoint-md) {
+                padding-left: 2rem;
+                margin-left: 2rem;
+            }
+        }
+
+        p {
+            line-height: 1.25;
+            font-size: 1.25rem;
+            font-style: italic;
+
+            @media (min-width: $breakpoint-sm) { font-size: 1.5rem; }
+            @media (min-width: $breakpoint-md) { font-size: 1.75rem; }
+        }
     }
 }
