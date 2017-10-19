@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "title": "Adirondack Chairs",
+            "imageCount": 8,
+            "imageKey": "adirondack"
+        },
+        {
+            "id": 1,
+            "title": "Derek's Woodworking Class",
+            "imageCount": 9,
+            "imageKey": "education"
+        },
+        {
+            "id": 2,
+            "title": "Dining Tables",
+            "desc": "Rustic New England Furniture makes our Dining Room Tables custom and to spec. Our most common tables sits 6-8 people and include our signature rustic swirl-legged design. Ask us about chairs and benches for your new Dining Room Table.",
+            "imageCount": 4,
+            "imageKey": "dining"
+        },
+        {
+            "id": 3,
+            "title": "Coffee and End Tables",
+            "desc": "Rustic New England works with clients directly and makes you custom furniture that fits your room and needs. Our basic Coffee Table is 24\" by 48\" and made from the wood of your choice as to match or accent your existing furniture.",
+            "imageCount": 24,
+            "imageKey": "coffee"
+        },
+        {
+            "id": 4,
+            "title": "Cutting Boards and Chop Blocks",
+            "desc": "Rustic New England Furniture uses a variety of \"Woods of the World\" for our Cutting Boards and Chopping Blocks. They consist of the bold colors and textures of Peruvian Walnut, Brazilian Purpleheart, African Zebra Wood, and American Red Oak giving your simple kitchen item character and dimension. All items are finished with black oil making them food safe.",
+            "imageCount": 3,
+            "imageKey": "chopblocks"
+        },
+        {
+            "id": 5,
+            "title": "Small Ticket Items",
+            "desc": "Rustic New England Furniture small ticket items make great office accents and stocking stuffers.",
+            "imageCount": 3,
+            "imageKey": "smallticket"
+        }
+    ]
+}
