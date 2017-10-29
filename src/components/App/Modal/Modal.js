@@ -3,9 +3,22 @@ import { arrayOf, element, func, oneOfType } from 'prop-types';
 import './Modal.css';
 
 const Modal = ({ children, closeModal }) => (
-    <div className="Modal-backdrop" onClick={closeModal}>
+    <div
+        className="Modal-backdrop"
+        onClick={closeModal}
+        onKeyPress={closeModal}
+        role="presentation"
+    >
         <div className="Modal-content">
-            <div className="Modal-close" onClick={closeModal}>X</div>
+            <div
+                className="Modal-close"
+                onClick={closeModal}
+                onKeyPress={closeModal}
+                role="presentation"
+            >
+                X
+            </div>
+            
             {children}
         </div>
     </div>
