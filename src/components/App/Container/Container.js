@@ -1,5 +1,5 @@
 import React from 'react';
-import { arrayOf, element, oneOfType } from 'prop-types';
+import { arrayOf, node, oneOfType } from 'prop-types';
 import './Container.css';
 
 const Container = ({ children }) => (
@@ -9,8 +9,8 @@ const Container = ({ children }) => (
 );
 Container.propTypes = {
     children: oneOfType([
-        arrayOf(element),
-        element,
+        arrayOf(node),
+        node,
     ]),
 };
 Container.defaultProps = {
