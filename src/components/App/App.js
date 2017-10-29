@@ -8,9 +8,9 @@ import Footer from './Footer/Footer';
 const App = () => (
     <Router>
         <div className="App">
-                    <Header />
-                    <Content />
-                    <Footer />
+            <Header />
+            <Content />
+            <Footer />
         </div>
     </Router>
 );

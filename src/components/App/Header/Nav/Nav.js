@@ -4,7 +4,7 @@ import Container from '../../Container/Container';
 import './Nav.css';
 
 const Nav = () => (
-	<div className="Nav">
+    <div className="Nav">
         <Container>
             <div className="Nav-items">
                 <Link to="/" className="Nav-item">Home</Link>
@@ -14,7 +14,7 @@ const Nav = () => (
                 <Link to="/education" className="Nav-item">Training/Classes</Link>
             </div>
         </Container>
-	</div>
+    </div>
 );
 
 export default Nav;
