@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb",
+    "plugins": ["react"],
+    "rules": {
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "indent": ["error", 4],
+        "no-trailing-spaces": "off",
+        "no-console": ["error", { "allow": ["warn", "error", "info"] }],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-filename-extension": "off"
+      }
+}
