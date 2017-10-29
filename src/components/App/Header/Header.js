@@ -1,10 +1,11 @@
 import React from 'react';
 import Container from '../Container/Container';
 import Nav from './Nav/Nav';
+import './Header.css';
 import leafplate from '../../../images/leafplate.svg';
 
 const Header = () => (
-    <header className="py2 center">
+    <header className="Header">
         <Container>
             <img
                 src={leafplate}
