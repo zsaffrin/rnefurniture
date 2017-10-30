@@ -5,6 +5,7 @@
   "author": "Zach Saffrin <zach@zachsaffrin.com> (http://zachsaffrin.com)",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.2",
     "npm-run-all": "^4.1.1",
     "overeasy": "^5.3.2",
     "prop-types": "^15.6.0",
