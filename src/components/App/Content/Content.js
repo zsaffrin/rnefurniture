@@ -6,6 +6,7 @@ import About from './About/About';
 import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
 import Education from './Education/Education';
+import Colophon from './Colophon/Colophon';
 
 const Content = () => (
     <Container>
@@ -15,6 +16,7 @@ const Content = () => (
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contact} />
             <Route path="/education" component={Education} />
+            <Route path="/colophon" component={Colophon} />
             <Redirect to="/" />
         </Switch>
     </Container>
