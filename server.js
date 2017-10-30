@@ -1,19 +1,18 @@
-var express        = require('express'),
-    bodyParser     = require('body-parser'),
-    methodOverride = require('method-override'),
-    app            = express();
+const express = require('express');
+const path = require('path');
 
-app.use(bodyParser.json());
-app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
-app.use(bodyParser.urlencoded({ extended: true }));
+const app = express();
 
-app.use(methodOverride('X-HTTP-Method-Override'));
+const port = process.env.PORT || 3009;
 
-app.use(express.static(__dirname + '/client'));
+app.use(express.static(path.resolve(__dirname, 'build')));
 
-require('./server/routes')(app);
-
-var server = app.listen(3009, function() {
-    var port = server.address().port;
-    console.log('RNE Furniture web server listening on port %s', port);
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 });
+
+app.listen(port, () => {
+    console.info(`RNE Furniture server listening on port ${port}`);
+});
+
+module.exports = app;

@@ -1,0 +1,28 @@
+@import '../../../../styles/_breakpoints';
+@import '../../../../styles/_colors';
+
+.Nav {
+    background: map-get($colors, 'medbrown');
+}
+
+.Nav-items {
+    @media (min-width: $breakpoint-sm) {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.Nav-item {
+    display: block;
+    flex: 1 1 auto;
+    padding: .25em;
+    @media (min-width: $breakpoint-sm) { padding: .5em; }
+
+    &:hover {
+        background: lighten(map-get($colors, 'medbrown'), 5%);
+    }
+
+    &.active {
+        background: map-get($colors, 'darkbrown');
+    }
+}

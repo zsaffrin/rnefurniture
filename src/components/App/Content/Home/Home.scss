@@ -1,0 +1,25 @@
+
+.Home-image {
+    background: url('../../../../images/chairs-outside.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 5em 1em;
+}
+
+.Home-welcome {
+    background: rgba(0, 0, 0, .8);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    text-align: center;
+
+    h5 {
+        margin-top: .5em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        margin-bottom: 1em;
+        max-width: 45em;
+    }
+}

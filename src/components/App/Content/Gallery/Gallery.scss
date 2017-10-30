@@ -1,0 +1,34 @@
+@import '../../../../styles/_colors';
+
+.Gallery {
+    h2 {
+        text-align: center;
+    }
+}
+
+.Gallery-section {
+    background-size: cover;
+    border: 1px solid map-get($colors, 'medbrown');
+    border-radius: .25rem;
+    margin: 2rem 0;
+    padding-top: 15rem;
+
+    .overlay {
+        background: map-get($colors, 'transparent-dark');
+        padding: .5rem;
+    }
+
+    .title {
+        font-size: 2em;
+        padding: .25rem;
+    }
+
+    .desc {
+        padding: .25rem;
+    }
+
+    .image-strip {
+        padding: .25rem;
+        text-align: center;
+    }
+}

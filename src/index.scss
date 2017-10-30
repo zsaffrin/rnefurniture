@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import './styles/_breakpoints';
+@import './styles/_colors';
+
+:root {
+    font-size: 14px;
+    line-height: 1.5;
+
+    @media (min-width: $breakpoint-sm) { font-size: 16px; }
+    @media (min-width: $breakpoint-md) { line-height: 1.375; }
+}
+
+body {
+    background-color: map-get($colors, 'darkbrown');
+    color: map-get($colors, 'ivory');
+    font-family: "Lora", "Georgia", "serif", serif;
+}
