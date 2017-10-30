@@ -1,5 +1,8 @@
 {
     "extends": "airbnb",
+    "globals": {
+        "window": true
+    },
     "plugins": ["react"],
     "rules": {
         "global-require": "off",
