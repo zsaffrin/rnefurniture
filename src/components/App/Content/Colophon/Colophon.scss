@@ -1,0 +1,41 @@
+@import '../../../../styles/_breakpoints';
+@import '../../../../styles/_colors';
+
+.Colophon {
+    h2 {
+        text-align: center;
+    }
+}
+
+.Colophon-entry {
+    margin: 2rem 0;
+
+    @media (min-width: $breakpoint-sm) {
+        display: flex;
+    }
+
+    .title {
+        font-size: 1.625rem;
+        line-height: 1.2;
+        padding: .5rem 0;
+
+        @media (min-width: $breakpoint-sm) {
+            width: 30%;
+        }
+    }
+
+    .credit {
+        border-left: 1px solid map-get($colors, 'darkivory');        
+        padding: .5rem 1rem;
+
+        @media (min-width: $breakpoint-sm) {
+            
+        }
+    }
+
+    .link {
+        a {
+            color: map-get($colors, 'darkivory');
+        }
+    }
+}
