@@ -1,5 +1,24 @@
+@import '../../../styles/_breakpoints';
 @import '../../../styles/_colors';
 
 .Footer {
     color: map-get($colors, 'darkivory');
+    font-size: .85rem;
+    padding: .5rem 0;
+
+    @media (min-width: $breakpoint-sm) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.Footer-col {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    text-align: center;
+
+    @media (min-width: $breakpoint-sm) {
+        text-align: right;
+    }
 }

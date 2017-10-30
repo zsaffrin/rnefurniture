@@ -4,14 +4,15 @@ import './Footer.css';
 
 const Footer = () => (
     <Container>
-        <div className="Footer flex flex-wrap flex-justify-between size-sm p2">
-            <div className="center p2">
+        <footer className="Footer">
+            <div className="Footer-col">
                 All images &copy; RNE Furniture
             </div>
-            <div className="center p2">
-                Site design by Zach Saffrin - Full site credits / Colophon
+            <div className="Footer-col">
+                Site design by Zach Saffrin<br />
+                Full site credits / Colophon
             </div>
-        </div>
+        </footer>
     </Container>
 );
 
