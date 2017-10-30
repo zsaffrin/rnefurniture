@@ -14,6 +14,15 @@
 
 .Nav-item {
     display: block;
+    flex: 1 1 auto;
     padding: .25em;
     @media (min-width: $breakpoint-sm) { padding: .5em; }
+
+    &:hover {
+        background: lighten(map-get($colors, 'medbrown'), 5%);
+    }
+
+    &.active {
+        background: map-get($colors, 'darkbrown');
+    }
 }
