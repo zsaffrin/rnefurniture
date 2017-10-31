@@ -1,7 +1,7 @@
 {
   "name": "rnefurniture",
-  "version": "4.0.0",
-  "private": true,
+  "version": "4.1.2",
+  "private": false,
   "author": "Zach Saffrin <zach@zachsaffrin.com> (http://zachsaffrin.com)",
   "license": "MIT",
   "dependencies": {
