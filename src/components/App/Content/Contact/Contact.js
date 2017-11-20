@@ -13,8 +13,8 @@ const Contact = () => (
                     Company
                 </h6>
                 <p>
-                    C-316, 2000 E 42nd St<br />
-                    Odessa, TX 79762
+                    2 Tower Drive<br />
+                    Dover, MA 02030
                 </p>
             </div>
             <div className="content-block">
